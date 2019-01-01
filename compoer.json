@@ -1,0 +1,24 @@
+{
+    "repositories": [
+      {
+        "type": "package",
+        "package": {
+          "name": "idiosuite/molntextarea",
+          "version": "0.1.1",
+          "type": "package",
+          "source": {
+              "url": "git@gitlab.com:idiosuite/molntextarea.git",
+              "type": "git",
+              "reference": "0.1.1"
+          }
+        }
+      }
+    ],
+    "require": {
+    },
+    "require-dev": {
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
