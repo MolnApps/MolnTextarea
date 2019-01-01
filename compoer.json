@@ -3,11 +3,11 @@
       {
         "type": "package",
         "package": {
-          "name": "idiosuite/molntextarea",
+          "name": "MolnApps/MolnTextarea",
           "version": "0.1.1",
           "type": "package",
           "source": {
-              "url": "git@gitlab.com:idiosuite/molntextarea.git",
+              "url": "git@github.com:MolnApps/MolnTextarea.git",
               "type": "git",
               "reference": "0.1.1"
           }
