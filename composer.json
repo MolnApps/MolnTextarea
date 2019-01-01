@@ -1,6 +1,7 @@
 {
     "repositories": [
       {
+        "name": "MolnApps/MolnTextarea",
         "type": "package",
         "package": {
           "name": "MolnApps/MolnTextarea",
