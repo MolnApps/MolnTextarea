@@ -1,25 +1,10 @@
 {
-    "repositories": [
-      {
-        "name": "MolnApps/MolnTextarea",
-        "type": "package",
-        "package": {
-          "name": "MolnApps/MolnTextarea",
-          "version": "0.1.1",
-          "type": "package",
-          "source": {
-              "url": "git@github.com:MolnApps/MolnTextarea.git",
-              "type": "git",
-              "reference": "0.1.1"
-          }
+    "name": "MolnApps/MolnTextarea",
+    "description": "",
+    "authors": [
+        {
+            "name": "MolnApps",
+            "email": "info@molnapps.com"
         }
-      }
-    ],
-    "require": {
-    },
-    "require-dev": {
-    },
-    "config": {
-        "bin-dir": "bin"
-    }
+    ]
 }
