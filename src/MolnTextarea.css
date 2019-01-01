@@ -1,0 +1,71 @@
+.molnTextarea textarea,
+.molnTextarea textarea:hover,
+.molnTextarea textarea:focus,
+.molnTextarea pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+
+.molnTextarea pre br {
+	display: inline !important;
+}
+
+.molnTextarea {
+	position: relative;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	min-height: 106px;
+
+	display: flex;
+}
+
+.molnTextarea textarea,
+.molnTextarea pre {
+	padding: 15px !important;
+	
+	display: block;
+	flex: 1;
+
+	background: transparent;
+	font-family: inherit;
+	font-size: 18px;
+	line-height: 24px;
+	
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+.molnTextarea.active textarea {
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	
+	resize: none;
+}
+
+.molnTextarea pre {
+	display: none;
+}
+
+.molnTextarea.active pre {
+	display: block;
+	visibility: hidden;
+}
+
+@media screen and (max-width: 600px) {
+	.molnTextarea {
+		width: auto;
+	}
+	
+	.molnTextarea pre,
+	.molnTextarea textarea {
+		padding: 6px 3.333%;
+		width: 93.333% !important; \width: 100% !important; w\idth: 93.333% !important;
+	}
+}
